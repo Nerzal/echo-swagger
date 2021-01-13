@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"regexp"
 
+	"github.com/Nerzal/swag"
 	"github.com/labstack/echo/v4"
-	"github.com/swaggo/files"
-	"github.com/swaggo/swag"
+	swaggerFiles "github.com/swaggo/files"
 )
 
 // Config stores echoSwagger configuration variables.
